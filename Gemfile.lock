@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_gateway.git
-  revision: ced89ddf70129e4b146b7ae0b54567ae6efef143
+  revision: 4b43cd8546d36fbf632887fe613c48fd04007e7b
   branch: 2-3-stable
   specs:
     spree_gateway (2.3.0.beta)
@@ -147,11 +147,10 @@ GEM
       mime-types
     paranoia (2.0.2)
       activerecord (~> 4.0)
+    pg (0.17.1)
     polyamorous (1.0.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
-    puma (2.9.1)
-      rack (>= 1.1, < 2.0)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.2)
@@ -166,12 +165,7 @@ GEM
       activesupport (= 4.1.5)
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.5)
-      sprockets-rails (~> 2.1.3)
-    rails_12factor (0.0.2)
-      rails_serve_static_assets
-      rails_stdout_logging
-    rails_serve_static_assets (0.0.2)
-    rails_stdout_logging (0.0.3)
+      sprockets-rails (~> 2.0)
     railties (4.1.5)
       actionpack (= 4.1.5)
       activesupport (= 4.1.5)
@@ -192,7 +186,7 @@ GEM
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
-      sprockets-rails (~> 2.1.3)
+      sprockets-rails (~> 2.0)
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -257,7 +251,6 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-    sqlite3 (1.3.9)
     state_machine (1.2.0)
     stringex (1.5.1)
     therubyracer (0.12.1)
@@ -294,9 +287,8 @@ DEPENDENCIES
   execjs
   jbuilder (~> 2.0)
   jquery-rails (= 3.1.0)
-  puma
+  pg
   rails (= 4.1.5)
-  rails_12factor
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spree (= 2.3.2)
@@ -305,7 +297,6 @@ DEPENDENCIES
   spree_gateway!
   spring
   sprockets-rails (= 2.1.3)
-  sqlite3
   therubyracer
   turbolinks
   uglifier (>= 1.3.0)
