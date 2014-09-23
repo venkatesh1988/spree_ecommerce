@@ -8,6 +8,14 @@ gem 'rails', '4.1.5'
 
 gem 'pg'
 
+gem 'rails_12factor'
+
+gem 'thin'
+
+gem 'heroku'
+
+ruby '2.1.2'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
