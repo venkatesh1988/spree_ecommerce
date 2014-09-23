@@ -12,8 +12,6 @@ gem 'rails_12factor'
 
 gem 'thin'
 
-gem 'heroku'
-
 ruby '2.1.2'
 
 # Use SCSS for stylesheets
